@@ -4,94 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <title>Room</title>
 </head>
 <body>
 <header>
 </header>
+
 <main>
+
+    <!-- ============  HERO-ROOM  ============== -->
+
     <section class="hero-room">
         <div class="container">
-            <h1>
-                Double luxury room
+            <h1 class="title-room">
+            Double <br> <span class="luxury">luxury</span> room
             </h1>
-            <button type="button">view prices</button>
-            <p>The Mimino hotel features spacious and stylish double luxury rooms with modern amenities for a comfortable stay.</p> 
-            <ul>
-                <li>
+            <button class="room-view-button" type="button">view prices</button>
+            <!-- <ul class="room-list">
+                <li class="list">
                     <img src="images/Room1.jpg" alt="">
                 </li>
-                <li>
+                <li class="list">
                     <img src="images/Room2.jpg" alt="">
                 </li>
-                <li>
+                <li class="list">
                     <img src="images/Room3.jpg" alt="">
                 </li>
-            </ul>     
+            </ul> -->
+            <p class="hero-text">The Mimino hotel features spacious and stylish double luxury rooms with modern amenities for a comfortable stay.</p>
         </div>
     </section>
-    <section class="General">
+    
+    <!-- =======GENERAL======== -->
+    
+    <section class="general">
         <div class="container">
-        <h2>Amenities</h2>
-        <ul>
+        <h2 class="visually-hidden">Amenities</h2>
+            <ul class="general-list">
+<ul class="amenities-list">
+    <h3 class="title-general">General Amenities & Facilities:</h3>
+    <li>24-hour front desk service</li>
+    <li>Daily housekeeping</li>
+    <li>Free Wi-Fi throughout the hotel</li>
+    <li>Elevator access</li>
+    <li>Luggage storage</li>
+    <li>Non-smoking rooms available</li>
+    <li>Meeting rooms for business and events</li>
+    <li>On-site parking (surcharge)</li>
+    <li>Concierge services</li>
+</ul>
+
+<ul class="amenities-list">
+    <h3 class="title-general">Bathroom:</h3>
+    <li>Private bathroom with shower</li>
+    <li>Complimentary toiletries</li>
+    <li>Hair dryer</li>
+    <li>Fresh towels daily</li>
+    <li>Deluxe bathrobes (in some room categories)</li>
+</ul>
+
+<ul class="amenities-list">
+    <h3 class="title-general">Bedroom:</h3>
+    <li>Comfortable beds with high-quality linens</li>
+    <li>Blackout curtains</li>
+    <li>Climate control (air conditioning and heating)</li>
+    <li>Safe for valuables</li>
+    <li>Writing desk and chair</li>
+    <li>Flat-screen TV with cable channels</li>
+</ul>
+
+<ul class="amenities-list">
+    <h3 class="title-general">Kitchen:</h3>
+    <li>In-room kitchenette (in some room categories)</li>
+    <li>Refrigerator</li>
+    <li>Microwave</li>
+    <li>Electric kettle</li>
+    <li>Cooking utensils and cutlery</li>
+    <li>Dining table and chairs</li>
+</ul>
+
+<ul class="amenities-list">
+    <h3 class="title-general">Media:</h3>
+    <li>Flat-screen TV with cable channels</li>
+    <li>High-speed Wi-Fi</li>
+    <li>iPod docking station</li>
+    <li>Speaker system</li>
+    <li>Electrical outlets for charging devices.</li>
+</ul>
+            </ul>
+            
+
+            <div class="batheroom-foto">
+                <img class="batheroom2" src="./images/bathroom2.jpg" alt="" width="207px" height="103px">
+                <img class="batheroom1" src="./images/bathroom1.jpg" alt="" width="259px" height="333px">
                 
-            <h3>General Amenities & Facilities:</h3>
-            <ul>
-                <li>24-hour front desk service</li>
-                <li>Daily housekeeping</li>
-                <li>Free Wi-Fi throughout the hotel</li>
-                <li>Elevator access</li>
-                <li>Luggage storage</li>
-                <li>Non-smoking rooms available</li>
-                <li>Meeting rooms for business and events</li>
-                <li>On-site parking (surcharge)</li>
-                <li>Concierge services</li>
-            </ul>
-            
-            <h3>Bathroom:</h3>
-            <ul>
-                <li>Private bathroom with shower</li>
-                <li>Complimentary toiletries</li>
-                <li>Hair dryer</li>
-                <li>Fresh towels daily</li>
-                <li>Deluxe bathrobes (in some room categories)</li>
-            </ul>
-            
-            <h3>Bedroom:</h3>
-            <ul>
-                <li>Comfortable beds with high-quality linens</li>
-                <li>Blackout curtains</li>
-                <li>Climate control (air conditioning and heating)</li>
-                <li>Safe for valuables</li>
-                <li>Writing desk and chair</li>
-                <li>Flat-screen TV with cable channels</li>
-            </ul>
+            </div>
 
-            <h3>Kitchen:</h3>
-            <ul>
-                <li>In-room kitchenette (in some room categories)</li>
-                <li>Refrigerator</li>
-                <li>Microwave</li>
-                <li>Electric kettle</li>
-                <li>Cooking utensils and cutlery</li>
-                <li>Dining table and chairs</li>
-            </ul>
-
-            <h3>Media:</h3>
-            <ul>
-                <li>Flat-screen TV with cable channels</li>
-                <li>High-speed Wi-Fi</li>
-                <li>iPod docking station</li>
-                <li>Speaker system</li>
-                <li>Electrical outlets for charging devices.</li>
-            </ul>
-        </ul>
-        <img src="" alt="">
-        <img src="" alt="">
-
-        <button type="button">book a room</button>
+        <button class="bookroom-button" type="button">book a room</button>
         </div>
     </section>
+
 </main>
+<!-- СЛАЙДЕР -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- СЛАЙДЕР -->
 </body>
 </html>

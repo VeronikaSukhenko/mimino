@@ -1,0 +1,44 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .hero-room{
+    padding-top: 40px;
+    padding-bottom: 120px;
+    }
+
+    .title-room{
+    font-size: 60px;
+    line-height: 60px;
+    width: 406px;
+    }
+
+    .luxury{
+    font-size: 60px;
+    line-height: 60px;
+    }
+
+    .room-view-button{
+    padding: 8px 24px;
+    margin-bottom: 28px;
+    }
+
+        .title-general {
+font-size: 40px;
+line-height: 44px;
+margin-bottom: 40px;
+}
+
+.general-list{
+    margin-bottom: 122px;
+}
+
+.amenities-list {
+font-size: 18px;
+    line-height: 24px;
+}
+
+}
